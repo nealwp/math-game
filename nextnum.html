@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script defer src="js/script.js" type="text/javascript"></script>
+        <title>Next Number</title>
+    </head>
+    <body>
+        <nav class="header">
+            <ul class="nav-btn"><a href="add.html"> + </a></ul>
+            <ul class="nav-btn"><a href="subtract.html"> - </a></ul>
+            <ul class="nav-btn"><a href="nextnum.html">1 2 3</a></ul>
+        </nav>
+        <div class="spacer"></div>
+        <div class="problem"></div>
+        <div class="spacer"></div>
+        <div class="options">
+            <div class="btn" id="1"></div>
+            <div class="btn" id="2"></div>
+            <div class="btn" id="3"></div>
+            <div class="btn" id="4"></div>
+        </div>
+        <div style="display:none">
+            <audio controls id="wrong">
+                <source src="sounds/buzzer.mp3" type="audio/mpeg">
+            </audio>
+            <audio controls id="right">
+                <source src="sounds/correct.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="spacer"></div>
+        <div class="bottom">
+            <span class="next-button">Next >></span>
+        </div>
+    </body>
+</html>
