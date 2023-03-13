@@ -3,7 +3,7 @@
 
 <template>
   <div class="bg-white border-b-2 py-4 flex shadow-sm">
-    <span class="mx-auto font-bold">App Title</span>
+    <span class="mx-auto font-bold">Math</span>
   </div>
 
 </template>

@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TopBar from './components/TopBar.vue'
+import MathQuestion from './components/MathQuestion.vue'
 </script>
 
 <template>
-  <TopBar/>
-  <HelloWorld msg="Vite + Vue" />
+  <TopBar />
+  <MathQuestion />
 </template>
 
 <style scoped>
