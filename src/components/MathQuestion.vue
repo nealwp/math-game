@@ -1,12 +1,21 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const count = ref(0)
+const generateAddend = () => {
+    return Math.floor(Math.random() * 10);
+}
+
+const leftAddend = generateAddend();
+const rightAddend = generateAddend();
+
+const answer = leftAddend + rightAddend;
+
 </script>
 
 <template>
-    <div class="flex">
-        <span class="text-5xl mx-auto my-16">5 + 6 = ?</span>
+    <div class="flex flex-col items-center my-16">
+        <div class="text-5xl">{{ leftAddend }} + {{ rightAddend }} = ?</div>
+        <div>the answer is {{ answer }}</div>
     </div>
 </template>
 
