@@ -2,11 +2,13 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TopBar from './components/TopBar.vue'
 import MathQuestion from './components/MathQuestion.vue'
+import GuessButtons from './components/GuessButtons.vue'
 </script>
 
 <template>
   <TopBar />
   <MathQuestion />
+  <GuessButtons />
 </template>
 
 <style scoped>
