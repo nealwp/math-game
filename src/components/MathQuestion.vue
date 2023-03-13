@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 
 const generateAddend = () => {
     return Math.floor(Math.random() * 10);
